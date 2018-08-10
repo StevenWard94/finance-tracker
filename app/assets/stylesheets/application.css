@@ -22,3 +22,8 @@
 .no-padding {
   padding: 0 !important;
 }
+
+/* This adds padding between the "flash message" and the "x" (close button). */
+button.close {
+  padding-left: 8px;
+}
