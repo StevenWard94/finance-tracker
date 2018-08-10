@@ -10,12 +10,15 @@
       </div>
       <div class="col-md-2">
         <%= button_tag :submit, class: "btn btn-lg btn-success" do %>
-          <i class="fa fa-search"></i> Look up a stock
+          <i class="fa fa-search"></i> Look up stock
         <% end %>
       </div>
     </div>
   <% end %>
 </div>
+
 <div id="results">
   <%= render 'result' %>
 </div>
+
+<%= render 'stocks/list' %>
