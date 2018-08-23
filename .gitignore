@@ -31,3 +31,6 @@
 
 # Override ~/.gitignore to include 'bin/' for heroku to use
 !**/bin
+
+# Ignore my .rvmrc
+.rvmrc
